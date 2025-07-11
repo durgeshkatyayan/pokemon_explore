@@ -117,8 +117,8 @@ export default function PokemonExplorer() {
 
       <div className="relative z-10 p-6 max-w-7xl mx-auto">
 
-        <div className="text-center mb-12">
-          <h1 className="text-7xl font-black mb-6 tracking-tight">
+        <div className="text-center mb-6">
+          <h1 className="text-7xl font-black mb-4 tracking-tight">
             <span className="text-transparent bg-gradient-to-r from-orange-400 via-red-500 to-yellow-500 bg-clip-text drop-shadow-lg">
               Pokemon
             </span>
@@ -132,7 +132,7 @@ export default function PokemonExplorer() {
           </p>
         </div>
 
-        <div className="mb-10 relative max-w-md mx-auto">
+        <div className="mb-6 relative max-w-md mx-auto">
           <div className="relative">
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
             <input
@@ -144,7 +144,7 @@ export default function PokemonExplorer() {
             />
           </div>
           {query && (
-            <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 text-sm text-gray-400 font-medium">
+            <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 text-sm text-gray-400 font-medium">
               {filtered.length} results found
             </div>
           )}
