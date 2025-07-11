@@ -97,7 +97,7 @@ export default function PokemonDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-600 to-pink-600 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br bg-black relative overflow-hidden">
       
       <div className="absolute inset-0 opacity-10">
         <svg className="w-full h-full" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
